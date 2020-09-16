@@ -1,10 +1,5 @@
 # Git commands cheat-sheet: the most useful git commands
 ## 1. Navigate to your git project folder
-
-HRVUHUEIHFUHEHFUEWUIU
-EFZEWFUEHWUFEUIE
-CEZEUFZEFZFHFEBFHJ
-
 Use `cd` to move between folders. For example:
 ```
 cd workspace
@@ -36,6 +31,11 @@ This command creates an empty Git repository. From now on, we can make changes t
     A commit is the Git equivalent of a "save". Commits can be thought of as snapshots of our project at a given point in time.
 3. `git push`
     This command sends the committed changes to a server. It is used to upload local repository content to a remote repository.
+## 5. Branches
+1. `git branch "new branch name"`
+    to create a new Branch
+2. `git checkout "branch name"` to switch into another branch (in VSCode it happens automatically).
+3. `git add .` or `git add -A` to save `git commit -m "message here..."` to commit and `git push --set-upstream origin` to push the new branch to github.
 
 
 
