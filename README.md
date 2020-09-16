@@ -32,3 +32,6 @@ This command creates an empty Git repository. From now on, we can make changes t
 3. `git push`
     This command sends the committed changes to a server. It is used to upload local repository content to a remote repository.
 
+
+
+
