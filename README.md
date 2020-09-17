@@ -37,9 +37,20 @@ This command creates an empty Git repository. From now on, we can make changes t
 2. `git checkout "branch name"` to switch into another branch (in VSCode it happens automatically).
 3. `git add .` or `git add -A` to save `git commit -m "message here..."` to commit and `git push --set-upstream origin` to push the new branch to github.
 
-Hakuna Matata! I have already done.
-to say Hakuna Matata! makes a lot of fuuuuun.
-
-it means you are lazy
+## 6. Merge
+1. Assuming:
+We are on a separate branch. Note: it can be checked by running `git branch -l`
+We have added and committed all our changes.
+We are now ready to merge our changes back to the main branch (which is usually master). It's time to:
+2. Move to branch that you want to merge your changes on.
+    E.g: `git checkout master`
+    
+    after checking out on master, it`s always good practice to pull the latest changes from the origin with:
+    `git pull`
+    
+3. Merge the changes from the source branch (the one where we committed our changes on) with:
+    `git merge my-username/source-branch`
+4. Save our changes to the server
+ `git push`
 
 
