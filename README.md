@@ -36,7 +36,6 @@ This command creates an empty Git repository. From now on, we can make changes t
     to create a new Branch
 2. `git checkout "branch name"` to switch into another branch (in VSCode it happens automatically).
 3. `git add .` or `git add -A` to save `git commit -m "message here..."` to commit and `git push --set-upstream origin` to push the new branch to github.
-
 ## 6. Merge
 1. Assuming:
 We are on a separate branch. Note: it can be checked by running `git branch -l`
@@ -52,5 +51,9 @@ We are now ready to merge our changes back to the main branch (which is usually 
     `git merge my-username/source-branch`
 4. Save our changes to the server
  `git push`
-
+## 7. Fetch
+```
+git fetch
+```
+The `git fetch` command downloads commits, files, and refs from a remote repository into your local repo. Fetching is what you do when you want to see what everybody else has been working on.
 
