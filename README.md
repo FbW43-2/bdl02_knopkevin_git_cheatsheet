@@ -45,7 +45,7 @@ We are now ready to merge our changes back to the main branch (which is usually 
 2. Move to branch that you want to merge your changes on.
     E.g: `git checkout master`
     
-    after checking out on master, it`s always good practice to pull the latest changes from the origin with:
+    after checking out on master, its always good practice to pull the latest changes from the origin with:
     `git pull`
     
 3. Merge the changes from the source branch (the one where we committed our changes on) with:
